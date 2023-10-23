@@ -15,13 +15,13 @@ npm install -g cypress
 1. Clone the repository to your development environment:
 
 ```
-git clone https://your-repository/sauce-demo-automated-tests.git
+git clone https://github.com/andresilva85/symphonyQA.git
 ```
 
 2. Navigate to the project folder:
 
 ```
-cd sauce-demo-automated-tests
+cd symphonyQA
 ```
 
 3. Install project dependencies:
@@ -57,8 +57,8 @@ The project is structured as follows:
 ## File Descriptions
 
 - `ui.cy.js`: The Cypress test file that performs login automation and product sorting verification on the Sauce Demo website.
-- `loginPage.js`: File containing the element page and login function.
-- `productPage.js`: File containing the element page and product sorting verification function.
+- `loginPage.js`: Files containing the element page and login function.
+- `productPage.js`: Files containing the element page and product sorting verification function.
 
 ## Contributing
 
