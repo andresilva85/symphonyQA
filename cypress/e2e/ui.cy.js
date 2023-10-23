@@ -14,6 +14,6 @@ describe('Sauce Demo Test', () => {
     verifyProductSort('az');
 
     // Change sorting and verify again
-    verifyProductSort('hilo');
+    verifyProductSort('za');
   });
 });
