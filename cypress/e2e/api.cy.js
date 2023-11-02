@@ -4,7 +4,7 @@ describe('API Tests', () => {
       // Verify if the response was successful
       expect(response.status).to.equal(200);
 
-      //JSON response
+      //JSON response stored
       const apiObjects = response.body.entries;
 
       // Storing objects with Category: Authentication & Authorization
