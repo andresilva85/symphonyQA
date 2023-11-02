@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "jdpoad", // Adicione o projectId aqui
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
@@ -9,13 +10,12 @@ module.exports = defineConfig({
 });
 
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
-// import allureWriter from "@shelex/cypress-allure-plugin/writer";
 
 module.exports = defineConfig({
-    e2e: {
-        setupNodeEvents(on, config) {
-            allureWriter(on, config);
-            return config;
-        }
+  e2e: {
+    setupNodeEvents(on, config) {
+      allureWriter(on, config);
+      return config;
     }
+  }
 });
