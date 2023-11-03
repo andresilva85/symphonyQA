@@ -60,6 +60,17 @@ The project is structured as follows:
 - `loginPage.js`: Files containing the element page and login function.
 - `productPage.js`: Files containing the element page and product sorting verification function.
 
+# Continuous Integration with GitHub Actions
+
+The project is configured for continuous integration using GitHub Actions. The workflow defined in `.github/workflows/cypress.yml` is triggered on every push to the repository. This workflow performs the following tasks:
+
+- Runs the tests on an Ubuntu runner with a Docker container.
+- Utilizes the Cypress GitHub Action for running Cypress tests.
+- Records test results and videos on the Cypress Dashboard.
+- Uses the `CYPRESS_RECORD_KEY` and `GITHUB_TOKEN` secrets for authentication.
+
+**Note:** For the GitHub Actions workflow to work, you should set up the necessary secrets in your GitHub repository settings
+
 ## Contributing
 
 Contributions are welcome! If you wish to contribute to this project, follow recommended contribution practices, create a fork of the repository, make your changes, and submit a pull request.
