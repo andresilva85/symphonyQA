@@ -66,8 +66,7 @@ The project is configured for continuous integration using GitHub Actions. The w
 
 - Runs the tests on an Ubuntu runner with a Docker container.
 - Utilizes the Cypress GitHub Action for running Cypress tests.
-- Records test results and videos on the Cypress Dashboard.
-- Uses the `CYPRESS_RECORD_KEY` and `GITHUB_TOKEN` secrets for authentication.
+- Uses the `GITHUB_TOKEN` secrets for authentication.
 
 **Note:** For the GitHub Actions workflow to work, you should set up the necessary secrets in your GitHub repository settings
 
