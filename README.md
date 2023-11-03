@@ -1,3 +1,17 @@
+# Automated API Test for Public APIs
+
+This project contains an automated API test implemented using the [Cypress](https://www.cypress.io/) testing framework to test the [Public APIs](https://api.publicapis.org/entries) endpoint. The test is designed to achieve the following objectives:
+
+## Test Description
+
+The automated API test is designed to perform the following actions:
+
+1. Send a GET request to the [Public APIs](https://api.publicapis.org/entries) endpoint.
+2. Receive and read the response from the API.
+3. Filter and identify all objects with the property "Category: Authentication & Authorization."
+4. Compare, count, and verify the number of objects that have the specified property.
+5. Print the found objects to the console for further examination.
+
 # Cypress Test Suite for Sauce Demo
 
 This is an automated testing project using the Cypress framework for the [Sauce Demo](https://www.saucedemo.com) website. The purpose of this project is to perform login and product sorting verification tests on the Sauce Demo website.
