@@ -1,7 +1,5 @@
 import { login } from '../support/pages/loginPage';
 import { verifyProductSort } from '../support/pages/productPage';
-import '@shelex/cypress-allure-plugin';
-require('@shelex/cypress-allure-plugin');
 
 describe('Sauce Demo Test', () => {
   it('should login and verify sorting', () => {
