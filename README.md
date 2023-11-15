@@ -82,6 +82,10 @@ The project is configured for continuous integration using GitHub Actions. The w
 - Utilizes the Cypress GitHub Action for running Cypress tests.
 - Uses the `GITHUB_TOKEN` secrets for authentication.
 
+# Test Report - MochaAwesome
+
+This project uses Mochawesome for test reporting. After running the tests, you can find the HTML report in the mochawesome-report directory(reports\html). Open the index.html file in a web browser to view the detailed test report
+
 **Note:** For the GitHub Actions workflow to work, you should set up the necessary secrets in your GitHub repository settings
 
 ## Contributing
